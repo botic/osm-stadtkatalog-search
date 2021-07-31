@@ -1,0 +1,29 @@
+{
+  "name": "osm-stadtkatalog-search",
+  "version": "0.0.1",
+  "description": "Looks if all OSM entries are also available in the 📖StadtKatalog.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://botic@github.com/botic/osm-stadtkatalog-search.git"
+  },
+  "keywords": [
+    "OpenStreetMap",
+    "OSM",
+    "StadtKatalog",
+    "OpenData"
+  ],
+  "author": "Philipp Naderer-Puiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/botic/osm-stadtkatalog-search/issues"
+  },
+  "homepage": "https://github.com/botic/osm-stadtkatalog-search#readme",
+  "dependencies": {
+    "@stadtkatalog/stadtkatalog": "^1.1.2",
+    "got": "^11.8.2"
+  }
+}
